@@ -2,11 +2,11 @@
   "name": "react_app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://nogsantos.github.io/react_app",
+  "homepage": "http://nogsantos.github.io/react-app",
   "author": {
-      "name": "Fabricio Nogueira",
-      "url": "http://fabricionogueira.me",
-      "email": "nogsantos@gmail.com"
+    "name": "Fabricio Nogueira",
+    "url": "http://fabricionogueira.me",
+    "email": "nogsantos@gmail.com"
   },
   "dependencies": {
     "react": "^16.1.1",
@@ -21,5 +21,8 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
   }
 }
